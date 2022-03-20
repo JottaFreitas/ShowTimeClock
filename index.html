@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hora do Dia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style clock.css" />
+    <script src="script clock.Js"></script>
+  </head>
+  <body onload="carregar()">
+    <!--onload carrega a funtion crida em Js assim que o programa rodar-->
+    <header><h1>Hora do Dia</h1></header>
+    <section>
+      <div id="msg">A hora</div>
+      <div id="foto">
+        <img id="imagem" src="manha.png" alt="" />
+        <!--adicionar o ID na imagem para fazer a troca de imagens por JavaScript, não apenas na DIV.-->
+      </div>
+    </section>
+  </body>
+</html>
